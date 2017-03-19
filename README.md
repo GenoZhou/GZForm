@@ -1,4 +1,5 @@
 # GZForm
+[![Build Status](https://travis-ci.org/GenoZhou/GZForm.svg?branch=master)](https://travis-ci.org/GenoZhou/GZForm)
 A specialized stack view controller to build a fully-featured form. In Swift3.
 
 Still under construction, more details coming...
