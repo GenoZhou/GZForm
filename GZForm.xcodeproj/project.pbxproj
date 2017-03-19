@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		097D9E3B1E7E0A5C008C51B6 /* BaseSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E381E7E0A5C008C51B6 /* BaseSeparatorView.swift */; };
+		097D9E3C1E7E0A5C008C51B6 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E391E7E0A5C008C51B6 /* StackViewController.swift */; };
+		097D9E3D1E7E0A5C008C51B6 /* StackViewItem + Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E3A1E7E0A5C008C51B6 /* StackViewItem + Separator.swift */; };
+		097D9E421E7E0A89008C51B6 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E3F1E7E0A89008C51B6 /* FormViewController.swift */; };
+		097D9E431E7E0A89008C51B6 /* KeyboardObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E401E7E0A89008C51B6 /* KeyboardObserving.swift */; };
+		097D9E441E7E0A89008C51B6 /* ViewResponderManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E411E7E0A89008C51B6 /* ViewResponderManaging.swift */; };
+		097D9E4D1E7E0AB7008C51B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E4C1E7E0AB7008C51B6 /* AppDelegate.swift */; };
+		097D9E541E7E0AB7008C51B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097D9E531E7E0AB7008C51B6 /* Assets.xcassets */; };
+		097D9E571E7E0AB7008C51B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097D9E551E7E0AB7008C51B6 /* LaunchScreen.storyboard */; };
+		097D9E601E7E0AC2008C51B6 /* SimpleFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E5C1E7E0AC2008C51B6 /* SimpleFormViewController.swift */; };
+		097D9E611E7E0AC2008C51B6 /* SimpleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E5D1E7E0AC2008C51B6 /* SimpleRow.swift */; };
+		097D9E621E7E0AC2008C51B6 /* SimpleStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E5E1E7E0AC2008C51B6 /* SimpleStackViewController.swift */; };
+		097D9E631E7E0AC2008C51B6 /* SimpleTextFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D9E5F1E7E0AC2008C51B6 /* SimpleTextFieldRow.swift */; };
+		097D9E671E7E0AED008C51B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097D9E661E7E0AED008C51B6 /* Main.storyboard */; };
 		0997F2F11E7E09E600071718 /* GZForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0997F2E71E7E09E600071718 /* GZForm.framework */; };
 		0997F2F61E7E09E600071718 /* GZFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0997F2F51E7E09E600071718 /* GZFormTests.swift */; };
 		0997F2F81E7E09E600071718 /* GZForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 0997F2EA1E7E09E600071718 /* GZForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097D9E381E7E0A5C008C51B6 /* BaseSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSeparatorView.swift; sourceTree = "<group>"; };
+		097D9E391E7E0A5C008C51B6 /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		097D9E3A1E7E0A5C008C51B6 /* StackViewItem + Separator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StackViewItem + Separator.swift"; sourceTree = "<group>"; };
+		097D9E3F1E7E0A89008C51B6 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		097D9E401E7E0A89008C51B6 /* KeyboardObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObserving.swift; sourceTree = "<group>"; };
+		097D9E411E7E0A89008C51B6 /* ViewResponderManaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewResponderManaging.swift; sourceTree = "<group>"; };
+		097D9E4A1E7E0AB7008C51B6 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097D9E4C1E7E0AB7008C51B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		097D9E531E7E0AB7008C51B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097D9E561E7E0AB7008C51B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		097D9E581E7E0AB7008C51B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097D9E5C1E7E0AC2008C51B6 /* SimpleFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleFormViewController.swift; sourceTree = "<group>"; };
+		097D9E5D1E7E0AC2008C51B6 /* SimpleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRow.swift; sourceTree = "<group>"; };
+		097D9E5E1E7E0AC2008C51B6 /* SimpleStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStackViewController.swift; sourceTree = "<group>"; };
+		097D9E5F1E7E0AC2008C51B6 /* SimpleTextFieldRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextFieldRow.swift; sourceTree = "<group>"; };
+		097D9E661E7E0AED008C51B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0997F2E71E7E09E600071718 /* GZForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GZForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0997F2EA1E7E09E600071718 /* GZForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZForm.h; sourceTree = "<group>"; };
 		0997F2EB1E7E09E600071718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		097D9E471E7E0AB7008C51B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0997F2E31E7E09E600071718 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,11 +87,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097D9E3E1E7E0A5F008C51B6 /* StackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				097D9E3A1E7E0A5C008C51B6 /* StackViewItem + Separator.swift */,
+				097D9E381E7E0A5C008C51B6 /* BaseSeparatorView.swift */,
+				097D9E391E7E0A5C008C51B6 /* StackViewController.swift */,
+			);
+			name = StackViewController;
+			sourceTree = "<group>";
+		};
+		097D9E451E7E0A8B008C51B6 /* FormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				097D9E401E7E0A89008C51B6 /* KeyboardObserving.swift */,
+				097D9E411E7E0A89008C51B6 /* ViewResponderManaging.swift */,
+				097D9E3F1E7E0A89008C51B6 /* FormViewController.swift */,
+			);
+			name = FormViewController;
+			sourceTree = "<group>";
+		};
+		097D9E4B1E7E0AB7008C51B6 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				097D9E641E7E0AC7008C51B6 /* Views */,
+				097D9E651E7E0ACF008C51B6 /* ViewControllers */,
+				097D9E4C1E7E0AB7008C51B6 /* AppDelegate.swift */,
+				097D9E661E7E0AED008C51B6 /* Main.storyboard */,
+				097D9E531E7E0AB7008C51B6 /* Assets.xcassets */,
+				097D9E551E7E0AB7008C51B6 /* LaunchScreen.storyboard */,
+				097D9E581E7E0AB7008C51B6 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		097D9E641E7E0AC7008C51B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				097D9E5D1E7E0AC2008C51B6 /* SimpleRow.swift */,
+				097D9E5F1E7E0AC2008C51B6 /* SimpleTextFieldRow.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		097D9E651E7E0ACF008C51B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				097D9E5C1E7E0AC2008C51B6 /* SimpleFormViewController.swift */,
+				097D9E5E1E7E0AC2008C51B6 /* SimpleStackViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		0997F2DD1E7E09E600071718 = {
 			isa = PBXGroup;
 			children = (
 				0997F2E91E7E09E600071718 /* GZForm */,
 				0997F2F41E7E09E600071718 /* GZFormTests */,
+				097D9E4B1E7E0AB7008C51B6 /* Example */,
 				0997F2E81E7E09E600071718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +154,7 @@
 			children = (
 				0997F2E71E7E09E600071718 /* GZForm.framework */,
 				0997F2F01E7E09E600071718 /* GZFormTests.xctest */,
+				097D9E4A1E7E0AB7008C51B6 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +162,8 @@
 		0997F2E91E7E09E600071718 /* GZForm */ = {
 			isa = PBXGroup;
 			children = (
+				097D9E3E1E7E0A5F008C51B6 /* StackViewController */,
+				097D9E451E7E0A8B008C51B6 /* FormViewController */,
 				0997F2EA1E7E09E600071718 /* GZForm.h */,
 				0997F2EB1E7E09E600071718 /* Info.plist */,
 			);
@@ -100,6 +193,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		097D9E491E7E0AB7008C51B6 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097D9E591E7E0AB7008C51B6 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				097D9E461E7E0AB7008C51B6 /* Sources */,
+				097D9E471E7E0AB7008C51B6 /* Frameworks */,
+				097D9E481E7E0AB7008C51B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 097D9E4A1E7E0AB7008C51B6 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0997F2E61E7E09E600071718 /* GZForm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0997F2FB1E7E09E600071718 /* Build configuration list for PBXNativeTarget "GZForm" */;
@@ -146,9 +256,15 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = GenoZhou;
 				TargetAttributes = {
+					097D9E491E7E0AB7008C51B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6GSRA2VTY3;
+						ProvisioningStyle = Automatic;
+					};
 					0997F2E61E7E09E600071718 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6GSRA2VTY3;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					0997F2EF1E7E09E600071718 = {
@@ -164,6 +280,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0997F2DD1E7E09E600071718;
 			productRefGroup = 0997F2E81E7E09E600071718 /* Products */;
@@ -172,11 +289,22 @@
 			targets = (
 				0997F2E61E7E09E600071718 /* GZForm */,
 				0997F2EF1E7E09E600071718 /* GZFormTests */,
+				097D9E491E7E0AB7008C51B6 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		097D9E481E7E0AB7008C51B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097D9E571E7E0AB7008C51B6 /* LaunchScreen.storyboard in Resources */,
+				097D9E541E7E0AB7008C51B6 /* Assets.xcassets in Resources */,
+				097D9E671E7E0AED008C51B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0997F2E51E7E09E600071718 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,10 +322,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		097D9E461E7E0AB7008C51B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097D9E631E7E0AC2008C51B6 /* SimpleTextFieldRow.swift in Sources */,
+				097D9E611E7E0AC2008C51B6 /* SimpleRow.swift in Sources */,
+				097D9E4D1E7E0AB7008C51B6 /* AppDelegate.swift in Sources */,
+				097D9E601E7E0AC2008C51B6 /* SimpleFormViewController.swift in Sources */,
+				097D9E621E7E0AC2008C51B6 /* SimpleStackViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0997F2E21E7E09E600071718 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097D9E3B1E7E0A5C008C51B6 /* BaseSeparatorView.swift in Sources */,
+				097D9E441E7E0A89008C51B6 /* ViewResponderManaging.swift in Sources */,
+				097D9E3C1E7E0A5C008C51B6 /* StackViewController.swift in Sources */,
+				097D9E421E7E0A89008C51B6 /* FormViewController.swift in Sources */,
+				097D9E431E7E0A89008C51B6 /* KeyboardObserving.swift in Sources */,
+				097D9E3D1E7E0A5C008C51B6 /* StackViewItem + Separator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +365,44 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		097D9E551E7E0AB7008C51B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097D9E561E7E0AB7008C51B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		097D9E5A1E7E0AB7008C51B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GSRA2VTY3;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genozhou.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		097D9E5B1E7E0AB7008C51B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GSRA2VTY3;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genozhou.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		0997F2F91E7E09E600071718 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +505,7 @@
 		0997F2FC1E7E09E600071718 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6GSRA2VTY3;
@@ -334,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.genozhou.GZForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +526,7 @@
 		0997F2FD1E7E09E600071718 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6GSRA2VTY3;
@@ -360,6 +546,7 @@
 		0997F2FF1E7E09E600071718 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6GSRA2VTY3;
 				INFOPLIST_FILE = GZFormTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +559,7 @@
 		0997F3001E7E09E600071718 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6GSRA2VTY3;
 				INFOPLIST_FILE = GZFormTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -384,6 +572,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		097D9E591E7E0AB7008C51B6 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097D9E5A1E7E0AB7008C51B6 /* Debug */,
+				097D9E5B1E7E0AB7008C51B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0997F2E11E7E09E600071718 /* Build configuration list for PBXProject "GZForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -400,6 +596,7 @@
 				0997F2FD1E7E09E600071718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0997F2FE1E7E09E600071718 /* Build configuration list for PBXNativeTarget "GZFormTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +605,7 @@
 				0997F3001E7E09E600071718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
